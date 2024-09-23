@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            place-items: center;
+        align-items: center;
+    height: 100vh;}
+            .center{
+                width: 500px;
+                height: 500px;
+                background: #fff;
+                border-radius: 5%;
+                box-shadow: 0 20px 20px gray;
+                text-align: center;
+                padding-bottom: 70px;
+                margin-bottom: 100px;
+                
+            }
+            .text{
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .text:hover{color: white;
+                text-shadow: 0 10px 10px gray;
+            }
+            .design{
+                width: 100%;
+                height: 100px;
+                background: #4a68e2;
+                border-radius: 10px 10px 50% 50%;
+                display: flex;
+                justify-content: center;
+            }
+            design:hover{
+                box-shadow:  50px gray ;
+            }
+            .form{
+                padding-top: 5%;
+                width: 100%;
+                height: 300px;
+                border-radius: 5%;
+                background: #fff;
+                width: 70%;
+                margin: auto;
+            }
+            .design-text:hover{
+                            text-shadow: 0 10px 10px white;
+                            font-size: 40px;
+            }
+            .design-text{
+               
+                font-size: 40px;
+}
+            .input{
+                width: 70%;
+                height: 10%;
+                margin-top: 10%;
+                border: none;
+                outline: none;
+                border-radius: 10px;
+                box-shadow: 0  10px 10px gray;
+                text-align: center;
+            }
+            .submit-button{
+                width: 70%;
+                height: 10%;
+                margin: 20px;
+                border-radius: 10px;
+                border: none;
+                background:  #4a68e2;
+                color: white;
+                box-shadow: 0 10px 10px gray;
+            }
+            .bottom{
+                width: 100%;
+                background:  #4a68e2;
+                height: 150px;
+                border-radius: 50% 50% 10px 10px;
+                display: flex;
+                
+                flex-direction: column;
+            }
+
+           
+            .triangle {  
+                width: 0;  
+                height: 0;  
+                border-left: 25px solid transparent;  
+                border-right: 25px solid transparent;  
+                border-bottom: 15px solid rgb(246, 246, 248);
+                margin: 20px;
+                align-self: center;
+                
+            }  
+           .sign-up{
+                    color: white;
+                    
+           }
+           .sign-up:hover{
+            
+            text-shadow: 0 10px 10px white;
+           }
+           .forgot-password:hover{
+            direction: rtl;
+           }
+           @media wi
+    </style>
+</head>
+<body>
+    <div class="container"><h1 class="text">LOGIN FORM</h1> <div  class="center"><div class="design"><h1 class="design-text" style="color: white;">SIGN IN</h1></div>
+    <form class="form" action="" method="post"><input class="input" type="text" placeholder="EMAIL"><input class="input" type="text" placeholder="PASSWORD"> <hr style="margin-top: 20px;"><button class="submit-button" type="submit">SUBMIT</button><hr><a class="forgot-password" href="http://">FORGOT PASSWORD</a></form><div class="bottom"><div class="triangle"></div>  
+    <h1 class="sign-up">SIGN UP</h1>
+   </div></div></div>
+</body>
+</html>
